@@ -1,0 +1,83 @@
+:root{
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    border: solid 2px #7a7a7a;
+    text-align: center;
+    position: relative;
+} 
+
+h2{  
+    border-bottom: solid 2px #7a7a7a;
+    color: #0788b8;
+    font-style: italic;
+}
+h3{
+    padding: 0px;
+    margin: 0px;
+}
+main{
+    display: flex;
+}
+.txt-blue{
+    color: #0788b8;
+}
+
+.txt-gray{
+    color: #7a7a7a;
+}
+
+.coluna-1{
+    padding-right: 65px;
+    width: 82vw;
+
+}
+.coluna-2{
+    width: 18vw;
+
+}
+.contact p{
+    margin: 5px 0px;
+}
+
+.less-spacing{
+    padding: px;
+    margin: 0px;
+}
+#profissao{
+    position: absolute;
+    top: 68%;
+    left: 44%;
+    background-color: white;
+    padding: 0px 10px;
+    text-transform: uppercase;
+}
+
+
+.cursos{
+    display: flex;
+    padding: 5px ;
+
+}
+.descricao{
+    width: 60vw;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+    margin-bottom: 5px;
+
+}
+
+.qd-blue{
+    background-color: #0788b8;
+    height: 15px;
+    width: 12px;
+}
+.qd-gray{
+    background-color: #c7b9b9eb;
+    height: 15px;
+    width: 12px;
+}
